@@ -3,11 +3,10 @@ import Hello from "./components/Hello";
 
 function App() {
   const age: number = 18;
-  console.log(age);
 
   return (
     <>
-      <Hello age={12} name="Tycoon" />
+      <Hello age={age} name="Tycoon" />
     </>
   );
 }
